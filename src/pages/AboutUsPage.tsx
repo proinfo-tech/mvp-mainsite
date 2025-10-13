@@ -41,8 +41,7 @@ const AboutUsPage: React.FC = () => {
 
     return (
         <div className="bg-white min-h-screen flex flex-col font-sans">
-            <Header />
-            <main className="pt-[70px]">
+            <main>
 
                 {/* --- Hero Section --- */}
                 <motion.section
@@ -195,7 +194,6 @@ const AboutUsPage: React.FC = () => {
                     </div>
                 </motion.section>
             </main>
-            <Footer />
         </div>
     );
 };

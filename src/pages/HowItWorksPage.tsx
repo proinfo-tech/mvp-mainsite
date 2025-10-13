@@ -192,8 +192,7 @@ const InfoCard: React.FC<{ title: string; items: string[]; variant?: 'primary' |
 const HowItWorksPage: React.FC = () => {
     return (
         <div className="bg-white min-h-screen flex flex-col font-sans">
-            <Header />
-            <main className="pt-[70px]">
+            <main>
                 {/* Hero/Intro Section */}
                 <div className="w-full max-w-7xl mx-auto pt-20 sm:px-6 lg:px-6 grid grid-cols-1 md:grid-cols-1 items-center">
                     <img src={HowItWorksImg} alt="How It Works Banner" />
@@ -340,7 +339,6 @@ const HowItWorksPage: React.FC = () => {
                     </div>
                 </Section>
             </main>
-            <Footer />
         </div>
     );
 };
