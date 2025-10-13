@@ -5,6 +5,7 @@ import CertifiedQualityImg from "../assets/images/certified-quality.png";
 import ComplianceandEsgImg from "../assets/images/compliance-and-esg.png";
 import RecycleImg from "../assets/images/recycle.png";
 import RecycleArrowImg from "../assets/images/recycle-arrow.png";
+
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import {
@@ -24,7 +25,7 @@ const HomePage: React.FC = () => {
       <section
         className="mt-[70px] relative text-white px-4 sm:px-6 lg:px-10 flex justify-center items-center 
              min-h-[300px] md:min-h-[400px] lg:h-[425px] 
-             bg-[url('/src/assets/images/hero-bg.png')] bg-contain bg-center lg:bg-right border-t-2 border-t-[#164B88]"
+             bg-[url('/src/assets/images/globe-rotate.gif')] bg-contain bg-center lg:bg-right border-t-2 border-t-[#164B88]"
       >
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-[linear-gradient(269.67deg,rgba(0,52,179,0)_0.28%,#002C98_55.58%,#00164D_95.59%)]" />

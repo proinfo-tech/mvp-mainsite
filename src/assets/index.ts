@@ -13,8 +13,15 @@ import ComprehesiveDashboard from'@/assets/icons/comprehensive-dashboard.svg'
 import EgsFootprint from '@/assets/icons/egs-footprint.svg'
 import Manufacturing from '@/assets/icons/manufacturing.svg'
 import TrustedQuality from '@/assets/icons/trusted-quality.svg'
+import MapIcon  from '@/assets/icons/map-icon.png';
+import PhoneCallIcon  from '@/assets/icons/phone-icon.png';
+import MailIcon  from '@/assets/icons/mail-icon.png';
 import PasticImg from '@/assets/images/plastic-material.png'
-
+import AboutUsImg from '@/assets/images/about-us.gif'
+import AboutUsBanner from '@/assets/images/about-banner.png'
+import MissionVisionImg from '@/assets/images/vision-mission.png'
+import HowItWorksImg from '@/assets/images/how-it-works.gif'
+import HowItWorksProcessImg from '@/assets/images/how-it-works-man.png'
 export {
     CompliantSvg, 
     CertifiedSvg, 
@@ -32,4 +39,12 @@ export {
     Manufacturing, 
     TrustedQuality, 
     PasticImg, 
+    AboutUsImg,
+    AboutUsBanner,
+    MissionVisionImg,
+    MapIcon,
+    MailIcon,
+    PhoneCallIcon,
+    HowItWorksImg,
+    HowItWorksProcessImg
 }
