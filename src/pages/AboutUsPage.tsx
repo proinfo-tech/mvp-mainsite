@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import {AboutUsImg, MissionVisionImg, MapIcon, MailIcon, PhoneCallIcon} from '@/assets';
+import {AboutUsImg, MissionVisionImg, MapIcon, MailIcon, PhoneCallIcon, AboutUsBanner} from '@/assets';
 // --- Reusable Motion Variants ---
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -47,7 +47,7 @@ const AboutUsPage: React.FC = () => {
                 {/* --- Hero Section --- */}
                 <motion.section
                     className="relative h-[300px] md:h-[400px] bg-cover bg-center flex items-center justify-center text-white"
-                    style={{ backgroundImage: "url('/src/assets/images/about-banner.png')" }} // Add this image to your assets
+                    style={{ backgroundImage: `url(${AboutUsBanner})` }} // Add this image to your assets
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.8 }}
