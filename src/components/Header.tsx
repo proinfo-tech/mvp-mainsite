@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom"; // Use react-router-dom
+import { NavLink } from "react-router-dom"; // Use react-router-dom
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -11,12 +11,12 @@ type HeaderProps = {
 
 const Header: React.FC<HeaderProps> = ({ showAuthButtons = true }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const navigateHandler = (path: string) => {
-    navigate(path);
-    setMobileOpen(false); // Close mobile menu on navigation
-  };
+  // const navigateHandler = (path: string) => {
+  //   navigate(path);
+  //   setMobileOpen(false); // Close mobile menu on navigation
+  // };
 
   return (
      <header className="fixed top-0 left-0 z-50 bg-[#164B88] h-[70px] w-full lg:px-[200px] flex justify-between items-center px-6">
