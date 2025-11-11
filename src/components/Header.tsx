@@ -56,15 +56,15 @@ const Header: React.FC<HeaderProps> = ({ showAuthButtons = true }) => {
           {showAuthButtons && (
             <div className="flex items-center gap-4 ml-8">
               <Button
-                onClick={() => navigateHandler("/")}
+                onClick={() => window.location.href = "https://battery.mvpmaterials.com/login"}
                 variant="outline"
-                className="bg-[#E0E0E0] text-black border-none hover:bg-gray-200 px-8 py-2 text-sm font-semibold rounded-lg"
+                className="bg-[#E0E0E0] cursor-pointer text-black border-none hover:bg-gray-200 px-8 py-2 text-sm font-semibold rounded-lg"
               >
                 Login
               </Button>
               <Button
-                onClick={() => navigateHandler("/")}
-                className="bg-[#60B244] hover:bg-green-600 text-white px-6 py-2 text-sm font-semibold rounded-lg"
+                onClick={() => window.location.href = "https://battery.mvpmaterials.com/register"}
+                className="bg-[#60B244] cursor-pointer hover:bg-green-600 text-white px-6 py-2 text-sm font-semibold rounded-lg"
               >
                 Registration
               </Button>
@@ -99,14 +99,14 @@ const Header: React.FC<HeaderProps> = ({ showAuthButtons = true }) => {
             {showAuthButtons && (
               <div className="flex flex-col gap-3 w-full mt-4 border-t border-gray-500 pt-4">
                 <Button
-                  onClick={() => navigateHandler("/login")}
+                  onClick={() => window.location.href = "https://battery.mvpmaterials.com/login"}
                   variant="outline"
                   className="bg-[#E0E0E0] text-black border-none hover:bg-gray-200 w-full py-2 text-sm font-semibold"
                 >
                   Login
                 </Button>
                 <Button
-                  onClick={() => navigateHandler("/register")}
+                   onClick={() => window.location.href = "https://battery.mvpmaterials.com/register"}
                   className="bg-[#60B244] hover:bg-green-600 text-white w-full py-2 text-sm font-semibold"
                 >
                   Registration

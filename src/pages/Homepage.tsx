@@ -6,8 +6,6 @@ import ComplianceandEsgImg from "../assets/images/compliance-and-esg.png";
 import RecycleImg from "../assets/images/recycle.png";
 import RecycleArrowImg from "../assets/images/recycle-arrow.png";
 
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import {
   AutomatedReporting,
   ComprehesiveDashboard,
@@ -161,22 +159,22 @@ const HomePage: React.FC = () => {
           </div>
           <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-stretch text-center divide-y sm:divide-x sm:divide-y-0 divide-gray-300">
               <div className="flex-1 flex flex-col items-center gap-4 px-4 py-6">
-                <img alt="Trusted Quality" className="h-16 w-16 object-contain" src="/src/assets/icons/trusted-quality.svg" />
+                <img alt="Trusted Quality" className="h-16 w-16 object-contain" src={TrustedQuality} />
                 <p className="font-medium text-gray-800">Trusted<br/>Quality</p>
               </div>
 
               <div className="flex-1 flex flex-col items-center gap-4 px-4 py-6">
-                <img alt="Comprehensive Dashboard" className="h-16 w-16 object-contain" src="/src/assets/icons/comprehensive-dashboard.svg"/>
+                <img alt="Comprehensive Dashboard" className="h-16 w-16 object-contain" src={ComprehesiveDashboard}/>
                 <p className="font-medium text-gray-800">Comprehensive<br/>Dashboard</p>
               </div>
 
               <div className="flex-1 flex flex-col items-center gap-4 px-4 py-6">
-                <img alt="Automated Reporting" className="h-16 w-16 object-contain" src="/src/assets/icons/automated-reporting.svg"/>
+                <img alt="Automated Reporting" className="h-16 w-16 object-contain" src={AutomatedReporting}/>
                 <p className="font-medium text-gray-800">Automated<br/>Reporting</p>
               </div>
 
               <div className="flex-1 flex flex-col items-center gap-4 px-4 py-6">
-                <img alt="Enhanced ESG footprint" className="h-16 w-16 object-contain" src="/src/assets/icons/egs-footprint.svg"/>
+                <img alt="Enhanced ESG footprint" className="h-16 w-16 object-contain" src={EgsFootprint}/>
                 <p className="font-medium text-gray-800">Enhanced<br/>ESG footprint</p>
               </div>
           </div>

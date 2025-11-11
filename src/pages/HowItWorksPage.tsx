@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
 import { HowItWorksImg, HowItWorksProcessImg } from '@/assets';
 const quickLinks = [
